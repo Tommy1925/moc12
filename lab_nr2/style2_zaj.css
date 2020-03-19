@@ -1,0 +1,51 @@
+body {
+  background: grey;
+  color: pink;
+}
+h1 {
+  /* color: lightcoral !important; */
+}
+p {
+  /* padding: 20px; */
+  /* górny-dolny i lewy-prawy */
+  /* padding: 60px 40px;  */
+  padding: 100px 80px 60px 40px; /* top right bottom left */
+  /* padding-top: 100px; */
+  /* padding-right: 80px; */
+  /* padding-bottom: 60px; */
+  /* padding-left: 40px; */
+
+  color: #000;
+}
+.box {
+  background: lightseagreen;
+  color: #000;
+  width: 50%;
+  height: 200px;
+  padding: 20px;
+  border: 10px solid #fff;
+  border-bottom: 10px solid #000;
+  box-sizing: border-box;
+  /* border-bottom-color: */
+  /* border-width */
+  /* border-style */
+  /* border-color */
+}
+.darker {
+  background: #aaa;
+}
+.f20 {
+  font-size: 20px;
+}
+#subhead {
+  padding-top: 10px;
+}
+div.darker {
+  /* tylko div z klasą darker */
+}
+p#subhead {
+  /* znacznik p z id subhead */
+}
+div > p {
+  margin: 50px;
+}

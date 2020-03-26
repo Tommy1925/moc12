@@ -1,17 +1,67 @@
 !DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="rwdstyle.css" />
-    <title>Szablone</title>
-  </head>
-  <body>
-  <div class="lewy">
-    <input type="button" id= "przycisk" value="Compose"> 
-    lewy panel
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="rwdstyle.css" />
+  <title>Skrzynka Mailowa</title>
+</head>
+
+<body>
+  <div id="lewy">
+    <input type="button" id="przycisk" value="Compose">
+
+    <p class="menu">
+      Inbox<span>(2)</span>
+    </p>
+
+    <p class="menu">
+      Important
+    </p>
+
+    <p class="menu">
+      Sent
+    </p>
+
+    <p class="menu">
+      Drafts
+    </p>
+
+    <p class="menu">
+      Trash
+    </p>
+
+    <p>
+      <span id="labels">LABELS</span>
+    </p>
+
+    <div class="square" style="background-color: yellow;"></div>
+    <p class="kategoria">
+      Private
+    </p>
+
+    <div class="square" style="background-color:skyblue "></div>
+    <p class="kategoria">
+      Job
+    </p>
+
+    <div class="square" style="background-color:green;"></div>
+    <p class="kategoria">
+      Flights
+    </p>
 
   </div>
-  </body>
+
+<div id="lista">
+
+</div>
+
+
+
+
+
+
+</body>
+
 </html>

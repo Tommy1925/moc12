@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family:'Roboto Condensed', sans-serif;
+    background-color: #f3f4f5;
+
+}
+
+#mid-container{
+width: 1200px;
+height: 1120px;
+border: solid  red 6px;
+margin: auto;
+}
+
+#menu{
+    width: 1200px;
+    height: 200px;
+/*  margin-bottom: 70px;
+    margin-left: 400px; */
+    border-bottom-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    }
+    
+    #logo{
+    position: absolute;
+    margin: 50px 20px;
+    }
+    
+    .buttons{
+    color: #3c4a52;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    background: none;
+    margin: 70px 10px;
+    width: 130px;
+    height: 60px;
+    }
+    
+    .buttons:hover{
+     background-color: #ffc000;  
+     border-radius: 2px; 
+    }
+    
+    #buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    }
+
+    #obraz-container{
+     width: 1200px; 
+     height: 300px;
+  /* border: solid 2px blue;  */ 
+  margin-top: 30px;
+    }
+
+    #foto{
+        width: 1188px;
+        border: solid white 6px;
+    }

@@ -1,0 +1,118 @@
+body{
+    background: lightgray;
+}
+
+.k {
+ width: 200px;
+ height: 10px;
+ background-color: lightcoral;
+ border: 10px solid #ffffff;
+ margin: 20px;
+}
+
+.k1:hover {
+    background-color: red;
+}
+
+.k2 {
+/*  transition: all 1s linear;          */
+/*  transition: all 1s ease-in-out;     */
+    transition: all 1s cubic-bezier(.63, 0, .29, 1.01)
+}
+
+.k2:hover {
+    background-color: red;
+    margin-left: 150px;
+}
+
+.k3{
+    overflow: hidden;
+}
+
+.k3::before {
+    content: '';
+    display: block;
+    background-color: blue;
+    height: 10px;
+    width: 0;
+    transition: all 1s cubic-bezier(.63, 0, .29, 1.01) /* animacja po odjechaniu myszką z diva */
+}
+
+.k3:hover::before {
+    width: 100%;
+    transition: all 0.6s cubic-bezier(.63, 0, .29, 1.01) /* animacja przy najechaniu na div myszką */
+}
+
+.k4{ /* animacja od prawej do lewej */
+    overflow: hidden;
+    position: relative;
+}
+
+.k4::before { 
+    content: '';
+    display: block;
+    background-color: blue;
+    height: 10px;
+    position: absolute;
+    width: 0;
+    right: 0;
+    transition: all 1s cubic-bezier(.63, 0, .29, 1.01) /* animacja po odjechaniu myszką z diva */
+}
+
+.k4:hover::before {
+    width: 100%;
+    transition: all 0.6s cubic-bezier(.63, 0, .29, 1.01) /* animacja przy najechaniu na div myszką */
+}
+
+.k5 {
+    position: relative;
+}
+
+.k5::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: red;
+    transition: all 1s ease-in-out;
+}
+
+.k5:hover::before {
+    animation-name: pbar;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;   
+}
+
+@keyframes pbar {
+
+    0% {
+        width: 0;
+        left: 0;
+    }
+
+    25% {
+        width: 35%;
+        left: 25%;
+    }
+
+    50% {
+        width: 25%;
+        left: 50%;
+    }
+
+    75% {
+        width: 10%;
+        left: 75%;
+    }
+
+    100% {
+        width: 5%;
+        left: 100%;
+    }
+
+
+
+}

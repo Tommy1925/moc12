@@ -164,10 +164,9 @@ margin-top: 10px;
 position: absolute;
 }
 
-/*.square{
+.square{
     width:  12px;
     height: 12px;
     border-radius: 4px;
     background-color: gold;
-
-}*/
+}

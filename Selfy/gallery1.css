@@ -8,8 +8,7 @@ body {
 #mid-container{
     width: 1200px;
     height: 1200px;
-/*  border: solid  red 6px;  
-    height: 1120px; */
+    border: solid  red 6px; 
     margin: auto;
 }
 
@@ -23,12 +22,12 @@ body {
     border-width: 1px;
     }
     
-    #logo{
+#logo{
     position: absolute;
-    margin: 50px 20px;
+     margin: 50px 20px;
     }
     
-    .buttons{
+.buttons{
     color: #3c4a52;
     text-decoration: none;
     font-weight: 600;
@@ -41,84 +40,47 @@ body {
     height: 40px;
     }
     
-    .buttons:hover{
-        background-color: #656a6f;
-        border-radius: 2px; 
-       }
+.buttons:hover{
+    background-color: #656a6f;
+    border-radius: 2px; 
+     }
     
     
-    .buttons:focus{
+.buttons:focus{
      background-color: #ffc000;  
      border-radius: 2px; 
     }
     
-    #buttons-container{
+#buttons-container{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     }
 
-    #obraz-container{
-     width: 1200px; 
-     height: 300px;
-  /* border: solid 2px blue;  */ 
-     margin-top: 30px;
-    }
-
-    #foto{
-    height: 300px;
-    width: 1100px;
-    border: solid white 6px;
-    margin-left: 44px;
-    }
-
-    #main{
+.main-containers{
+    height: 310px;
     width: 1200px;
-    height: 520px;
- /* border: solid blue 3px; */
+    border: darkblue solid 2px;
+    display: flex;
+    justify-content: flex-start;
     }
 
-    #title{
-    font-weight: bold;
-    font-size: 55px;
+.lewy{
+    width: 400px;
+    height: 300px;
+    border: darkgreen solid 2px;
+    }
+
+.prawy{
     width: 800px;
-    padding-bottom: 40px;
-    height: 60px;
-    color: #3c4a52;
- /* border: solid 2px green; */
-    margin-left: 44px;
+    height: 300px;
+    border: darkorange solid 2px;
     }
 
-    #sub-title{
-        color: #3c4a52;
-        width: 800px;
-        height: 80px;
-        font-size: 25px;
-   /*   border: solid 2px black; */
-        font-family: 'aleoitalic';
-        padding-top: 0px;
-        margin-left: 44px;
-    }
+    
 
-    .text-div{
-    width: 550px;
-    height: 320px;
-    margin: 0px 20px;
- /* border: blueviolet 2px solid; */
-    font-size: 18px;
-    }
 
-    #columns-container{
-        width: 1150px;
-        height: 320px;
-        margin-top: 0;   
-        margin-left: 24px;
-        display: flex;
-        justify-content: flex-start;
-    /*  border: coral 2px solid; */
-    }
-
-    #footer-center{
+ #footer-center{
         width: 1200px;
         height: 80px;
         margin-right: 0px;
@@ -131,7 +93,7 @@ body {
         
     
         
-        #social{
+#social{
         height: 45px;
         width: 50px;
         margin-top: 15px;
@@ -141,7 +103,7 @@ body {
         }
         
         
-        #logo-foot{
+#logo-foot{
         height: 45px;
         width: 450px;
         margin-left: 0px;

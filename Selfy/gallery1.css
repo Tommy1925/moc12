@@ -7,8 +7,8 @@ body {
 
 #mid-container{
     width: 1200px;
-    height: 1200px;
-    border: solid  red 6px; 
+    height: 1600px;
+   /* border: solid  red 6px; */
     margin: auto;
 }
 
@@ -43,6 +43,7 @@ body {
 .buttons:hover{
     background-color: #656a6f;
     border-radius: 2px; 
+    transition: ease-in-out;
      }
     
     
@@ -58,23 +59,28 @@ body {
     }
 
 .main-containers{
-    height: 310px;
+    height: 440px;
     width: 1200px;
-    border: darkblue solid 2px;
+  /*  border: darkblue solid 2px; */
     display: flex;
     justify-content: flex-start;
     }
 
 .lewy{
     width: 400px;
-    height: 300px;
-    border: darkgreen solid 2px;
+    height: 438px;
+    /* border: darkgreen solid 2px; */
+    margin-left: 5px;
     }
 
 .prawy{
     width: 800px;
-    height: 300px;
-    border: darkorange solid 2px;
+    height: 438px;
+ /*   border: darkorange solid 2px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5px;
     }
 
     
@@ -111,3 +117,87 @@ body {
         position: absolute;
         }
         
+
+ #title{
+        font-weight: bold;
+        font-size: 40px;
+        width: 400px;
+        padding-bottom: 40px;
+        height: 40px;
+        color: #3c4a52;
+       /* border: solid 2px green; */
+        /* margin-left: 44px; */
+        }
+
+ #sub-title{
+        color: #3c4a52;
+        width: 400px;
+        height: 90px;
+        font-size: 20px;
+      /*   border: solid 2px black; */
+        font-family: 'aleoitalic';
+        padding-top: 0px;
+        /* margin-left: 44px; */
+        }
+.text-div{
+        width: 400px;
+        height: 150px;
+        /* margin: 0px 20px; */
+        /* border: blueviolet 2px solid; */
+        font-size: 15px;
+        }
+#odnosnik{
+        width: 400px;
+        height: 50px;
+        /* border: darkseagreen 2px solid; */
+       
+}
+
+#more-info{
+        color: #3c4a52;
+        border: 0;
+        font-size: 15px;
+        font-weight: bold;
+       
+}
+
+#more-info:hover{
+        transition: all 250ms ease-in-out;
+        color: #ffc000;
+}
+
+.obraz-maly{
+        width: 304px;
+        height: 100px;
+        margin: 15px 20px 15px 60px;
+        border: white 4px solid;
+}
+
+.obraz-duzy{
+        width: 686px; 
+        height: 200px;  
+        margin: 15px 20px 15px 60px;
+        border: white 4px solid;
+}
+
+.obraz-duzy2{
+    width: 686px; 
+    height: 200px;  
+    margin: 5px 20px 0px 60px;
+    border: white 4px solid;
+}
+
+.obraz-duzy2:hover{
+    transition: ease-in-out;
+    opacity: 0.5;
+}
+
+.obraz-duzy:hover{
+    transition: ease-in-out;
+    opacity: 0.5;
+}
+
+.obraz-maly:hover{
+    transition: ease-in-out;
+    opacity: 0.5;
+}

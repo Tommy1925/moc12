@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family:'Roboto Condensed', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#back{
+margin: 0;
+width: 100%;
+border: green solid 3px;
+background-color:#efefef;
+background-position: center;
+position: absolute;
+min-height: 100%;
+}
+
+#container1{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    border: darkslateblue solid 2px;
+    min-height: 100%;
+    }
+
+#menu{
+    margin: 0;
+    width: 100%;
+    height: 16%;
+    border: indigo solid 2px;
+
+    }
+
+#about{
+    margin: 0;
+    width: 100%;
+    height: 25.3%;
+    border: black solid 2px;
+}
+
+#skills{
+    margin: 0;
+    width: 100%;
+    height: 25.3%;
+    border: orange solid 2px;
+
+}
+
+#develop{
+    margin: 0;
+    width: 100%;
+    height: 25.3%;
+    border: red solid 2px;
+
+}
+
+
+
+#footer{
+    margin: 0;
+    width: 100%;
+    height: 8%;
+    border: brown solid 2px;
+}
+
+.buttons{
+    color: #3c4a52;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    background: none;
+    width: 130px;
+    height: 60px;
+    margin: 20px 0px;
+    }
+    
+.buttons:hover{
+    background-color: #656a6f; 
+    border-radius: 2px; 
+    }
+    
+ #buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    }
+    

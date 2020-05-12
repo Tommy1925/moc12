@@ -29,6 +29,7 @@ min-height: 100%;
     height: 16%;
     border: indigo solid 2px;
 
+
     }
 
 #about{
@@ -36,6 +37,9 @@ min-height: 100%;
     width: 100%;
     height: 25.3%;
     border: black solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #skills{
@@ -84,6 +88,75 @@ min-height: 100%;
  #buttons-container{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    margin-right: 40%;
     }
+#logo{
+   position: absolute;
+   align-items: flex-start;
+   width: 100px; 
+   height: 100px;
+   margin-left: 5%;
+   overflow: hidden;
+}
+
+#about span{
+    font-size: 30px;
+    font-weight: normal;
+}
+#about p{
+    font-size: 22px;
+}
+
+#profilowe{
+    height: 300px;
+    width: 199px;
+    border-radius: 2px;
+    margin-left: 5%;
+}
+
+#text{
+    width: 90%;
+    height: 30%;
+    border: royalblue solid 2px;
+    margin-left: 2%;
     
+}
+
+.mid-container{
+    height: 100%;
+    width: 50%;
+    border: tomato solid 2px;
+    margin-left: 19%;
+}
+.mid-text p{
+    font-size: 22px;
+}
+
+/*
+#stack-logo{
+    width: 30%;
+    height: 100%;
+    border: yellow solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+*/
+
+.text-logo{
+    width: 60%;
+    height: 100%;
+    border: goldenrod solid 2px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.wpis{
+height: 10%;
+width: 100%;
+border: springgreen solid 2px;
+display: flex;
+flex-direction: row;
+margin-bottom: 1%;
+
+}

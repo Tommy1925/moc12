@@ -8,7 +8,7 @@ body {
 #back{
 margin: 0;
 width: 100%;
-border: green solid 3px;
+/* border: green solid 3px; */
 background-color:#efefef;
 background-position: center;
 position: absolute;
@@ -19,7 +19,7 @@ min-height: 100%;
     margin: 0;
     display: flex;
     width: 100%;
-    border: darkslateblue solid 2px;
+  /*  border: darkslateblue solid 2px; */
     min-height: 100%;
     }
 
@@ -27,7 +27,7 @@ min-height: 100%;
     margin: 0;
     width: 100%;
     height: 16%;
-    border: indigo solid 2px;
+  /*  border: indigo solid 2px; */
     background-color: #1f1f1f;
     padding: 1% 0;
    
@@ -39,7 +39,7 @@ min-height: 100%;
     margin: 0;
     width: 100%;
     height: 24%;
-    border: black solid 2px;
+    border-bottom: #1f1f1f solid 2px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -49,7 +49,8 @@ min-height: 100%;
     margin: 0;
     width: 100%;
     height: 24%;
-    border: orange solid 2px;
+  /*  border: orange solid 2px; */
+ 
 
 }
 
@@ -57,7 +58,8 @@ min-height: 100%;
     margin: 0;
     width: 100%;
     height: 24%;
-    border: red solid 2px;
+  /*  border: red solid 2px; */
+  border-top: #1f1f1f solid 2px;
 
 }
 
@@ -67,7 +69,7 @@ min-height: 100%;
     margin: 0;
     width: 100%;
     height: 14%;
-    border: brown solid 2px;
+  /*  border: brown solid 2px; */
     color: white;
     background-color: #1f1f1f;
     font-size: 22px;
@@ -132,7 +134,7 @@ min-height: 100%;
 #text{
     width: 90%;
     height: 30%;
-    border: royalblue solid 2px;
+  /*  border: royalblue solid 2px; */
     margin-left: 2%;
     
 }
@@ -140,7 +142,7 @@ min-height: 100%;
 .mid-container{
     height: 100%;
     width: 70%;
-    border: tomato solid 2px;
+ /*   border: tomato solid 2px; */
     margin-left: 19%;
 }
 .mid-text p{
@@ -161,14 +163,14 @@ min-height: 100%;
 .text-logo{
     width: 60%;
     height: 100%;
-    border: goldenrod solid 2px;
+ /*   border: goldenrod solid 2px; */
     margin-left: 2%;
     margin-top: 5%;
 }
 .wpis{
     height: 12%;
     width: 100%;
-    border: springgreen solid 2px;
+  /*  border: springgreen solid 2px; */
     display: flex;
     flex-direction: row;
     margin-bottom: 1%;
@@ -201,3 +203,112 @@ height: 100%;
     height: 100px;
     margin-left: 5%;
  }
+
+ a:active{
+     transition: slide-in-top 1s ease-in-out;
+ }
+
+ label{
+     margin: 0 40px 0 0;
+     font-size: 40px;
+     line-height: 70px;
+     display: none;
+ }
+
+ #tog{
+ display: none;
+
+ }
+
+ @media only screen and (max-width: 800px)
+ {
+    label{
+        display: block;
+        cursor: pointer;
+        color: white;
+        text-align: right;
+        margin-right: 8%;
+        padding-bottom: 2%;
+        padding-top: 2%;
+    }
+
+    #buttons-container{
+    text-align: center;
+    width: 100%;
+    display: none;
+    }
+
+    #buttons-container a {
+    display: block;
+    border-bottom: orange 2px solid;
+    width: 100%;
+    margin: 0;
+
+    }
+
+    #tog:checked + #buttons-container{
+        display: block;
+    }
+
+    .mid-container{
+        height: 100%;
+        width: 70%;
+     /*   border: tomato solid 2px; */
+        margin-left: 28%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1520px ) and (min-width: 801px)
+{
+    .mid-container{
+        height: 100%;
+        width: 70%;
+     /*   border: tomato solid 2px; */
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 640px) and (orientation: portrait)
+{   
+    .mid-container{
+        height: 100%;
+        width: 100%;
+     /*   border: tomato solid 2px; */
+        margin: auto;
+    }
+
+    #footer{
+        margin: 0;
+        width: 100%;
+        height: 14%;
+      /*  border: brown solid 2px; */
+        color: white;
+        background-color: #1f1f1f;
+        font-size: 22px;
+        padding-bottom:  3%;
+        padding-top: 1%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #ikony{
+        margin-left: 10%;
+        height: 100%;
+        width: 50%; 
+        padding-top: 2%; 
+        align-self: flex-end;  
+    }
+
+    #copy{
+        margin-left: 16%;
+        width: 100%;
+        height: 100%;
+        padding-top: 6%;  
+        padding-right: 10%;
+
+    }
+
+}

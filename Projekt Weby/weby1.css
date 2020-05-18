@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    font-family:'Roboto Condensed', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
     width: 100%;
     overflow-x: hidden;
 }
@@ -30,9 +31,6 @@ min-height: 100%;
   /*  border: indigo solid 2px; */
     background-color: #1f1f1f;
     padding: 1% 0;
-   
-
-
     }
 
 #about{
@@ -96,7 +94,7 @@ min-height: 100%;
 .buttons:hover{
     border-bottom: 2px solid;
     border-radius: 2px; 
-    transition: ease-in;
+    transition: ease-in-out
     }
     
  #buttons-container{
@@ -129,6 +127,7 @@ min-height: 100%;
     width: 199px;
     border-radius: 2px;
     margin-left: 5%;
+    margin-top: 2%;
 }
 
 #text{
@@ -240,7 +239,7 @@ height: 100%;
 
     #buttons-container a {
     display: block;
-    border-bottom: orange 2px solid;
+    border-bottom: #ffc90e 2px solid;
     width: 100%;
     margin: 0;
 
@@ -270,7 +269,7 @@ height: 100%;
     }
 }
 
-@media only screen and (max-width: 640px) and (orientation: portrait)
+@media only screen and (max-width: 815px) and (orientation: portrait)
 {   
     .mid-container{
         height: 100%;
@@ -312,3 +311,164 @@ height: 100%;
     }
 
 }
+
+@media only screen and (max-width: 640px) and (orientation: portrait)
+{
+    #menu{
+        margin: 0;
+        width: 100%;
+        height: 16%;
+      /*  border: indigo solid 2px; */
+        background-color: #1f1f1f;
+        padding: 3% 0;
+        }
+
+    label{
+        display: block;
+        cursor: pointer;
+        color: white;
+        text-align: right;
+        margin-right: 8%;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        }  
+
+    #tog:checked + #buttons-container{
+        display: block;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 440px) and (orientation: portrait)
+{
+    #menu{
+        margin: 0;
+        width: 100%;
+        height: 16%;
+      /*  border: indigo solid 2px; */
+        background-color: #1f1f1f;
+        padding: 4% 0;
+        }
+
+    label{
+        display: block;
+        cursor: pointer;
+        color: white;
+        text-align: right;
+        margin-right: 8%;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        }  
+
+    #tog:checked + #buttons-container{
+        display: block;
+        overflow: hidden;
+    }
+
+    #about{
+        margin: 0;
+        width: 100%;
+        height: 24%;
+        border-bottom: #1f1f1f solid 2px;
+        display: block;
+  
+    }
+
+    #profilowe{
+        height: 300px;
+        width: 199px;
+        border-radius: 2px;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+
+}
+
+@media only screen and (max-width: 640px) and (orientation: landscape)
+{
+    #menu{
+        margin: 0;
+        width: 100%;
+        height: 16%;
+      /*  border: indigo solid 2px; */
+        background-color: #1f1f1f;
+        padding: 4% 0;
+        }
+
+    label{
+        display: block;
+        cursor: pointer;
+        color: white;
+        text-align: right;
+        margin-right: 8%;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        }  
+
+    #tog:checked + #buttons-container{
+        display: block;
+        overflow: hidden;
+    }
+
+    #about{
+        margin: 0;
+        width: 100%;
+        height: 24%;
+        border-bottom: #1f1f1f solid 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+  
+    }
+
+    #profilowe{
+        height: 300px;
+        width: 199px;
+        border-radius: 2px;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .mid-container{
+        height: 100%;
+        width: 100%;
+     /*   border: tomato solid 2px; */
+        margin: 0;
+    }
+
+    
+    #ikony{
+        margin-left: 20%;
+        height: 100%;
+        width: 100%; 
+        padding-top: 2%;   
+    }
+
+    #copy{
+        margin-left: 12%;
+        width: 100%;
+        height: 30%;
+        padding-top: 6%;  
+        padding-right: 10%;
+
+    }
+
+
+
+}
+
+@media only screen and (max-width: 800px) and (min-width: 1px) and (orientation: landscape)
+{
+    .mid-container{
+        height: 100%;
+        width: 100%;
+     /*   border: tomato solid 2px; */
+        margin: 0;
+    }
+
+
+
+}
+
+
